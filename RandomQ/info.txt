@@ -1,0 +1,5 @@
+site template for a random quotes .
+can be modified to view random imgs/text/etc.
+works as a landing page with few adjustments.
+using HTML/CSS/BOOTSTRAP/js.
+responsive.

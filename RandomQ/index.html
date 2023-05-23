@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Qwigley&family=Sail&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.6.3.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>RandomQ</title>
+</head>
+
+<body>
+
+  <!-- --------------------NAVBAR START-------------------------------- -->
+  <nav class="navbar navbar-expand-lg bg-transparent z-3  " id="nav-top">
+    <div class="container ">
+      <a class="navbar-brand " href="#">
+        <img class="logo-img w-75"  src="images/logo/download.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto   mb-2 mb-lg-0 ">
+
+
+          <li class="nav-item fw-semibold me-lg-3">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+
+
+        </ul>
+        <div class="social-panel d-flex justify-content-center align-content-center">
+              <div class="s-icon m-md-3 m-sm-3 fs-sm-4">
+                <span>
+                  <i class="fab fa-facebook-f"></i>
+                </span>
+              </div>
+              <div class="s-icon m-md-3 m-sm-3 fs-sm-4">
+                <span>
+                  <i class="fab fa-instagram"></i>
+                </span>
+              </div>
+              <div class="s-icon m-md-3 m-sm-3 fs-sm-4">
+                <span>
+                  <i class="fab fa-twitter"></i>
+                </span>
+              </div>
+            </div>
+      </div>
+
+    </div>
+
+  </nav>
+  <!-- --------------------NAVBAR END------------------------------------- -->
+
+  <!-- -------------------------------HOME PAGE START----------------------------------- -->
+  <section class="intro position-relative" id="home" >
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" >
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item position-relative active">
+          <img src="images/intro/c-1.jpg" class="d-block w-100" alt="...">
+
+
+        </div>
+        <div class="carousel-item position-relative">
+
+          <img src="images/intro/c-2.jpg" class="d-block w-100" alt="...">
+
+        </div>
+        <div class="carousel-item position-relative">
+          <img src="images/intro/c-3.jpeg" class="d-block w-100" alt="...">
+
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+<div class="qoute  m-auto py-4 bg-transparent fs-4  position-absolute start-50 translate-middle z-1">
+
+  <div class=" text position-relative mb-5 fw-light" >
+    <p id="text">
+      Press Button to get Random QUOTE :)
+    </p>
+  </div>
+
+  <div class="author">
+    <p class="text-center fw-lighter " id="author">
+
+    </p>
+  </div>
+  <div class="randomQ-b d-flex justify-content-center">
+    <button onclick="generatQ()" class=" btn btn-outline-primary btn-md-lg">GENERATE</button>
+  </div>
+
+</div>
+  </section>
+      <!-- -----------------------------HOME PAGE END----------------------------------- -->
+
+  <!-- -------------------------------BLOG PAGE END----------------------------------- -->
+
+<script src="js/main.js"></script>
+</body>
+
+</html>
