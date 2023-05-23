@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.6.3.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <title>Weather App</title>
+</head>
+
+<body>
+
+  <!-- --------------------NAVBAR START-------------------------------- -->
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark " id="nav-top">
+    <div class="container ">
+      <a class="navbar-brand fs-4" href="#">
+        <img src="images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+
+          <li class="nav-item me-lg-5">
+            <a class="nav-link " href="#home">Home</a>
+          </li>
+          <li class="nav-item me-lg-5">
+            <a class="nav-link" href="#about">News</a>
+          </li>
+          <li class="nav-item me-lg-5">
+            <a class="nav-link" href="#services">Live Cameras</a>
+          </li>
+          <li class="nav-item me-lg-5">
+            <a class="nav-link" href="#portfolio">Photos</a>
+          </li>
+          <li class="nav-item me-lg-5">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- --------------------NAVBAR END------------------------------------- -->
+  <!-- --------------------HOME PAGE START-------------------------------- -->
+
+  <section class="w-100 " id="home">
+    <div class="w-100 mb-5">
+    <div class="container">
+
+        <div class="row height d-flex justify-content-center align-items-center">
+
+            <div class="col-md-12 ">
+
+                <div class="form">
+                    <i class="fa fa-search" id="serchButton"></i>
+                    <input type="text" class="form-control form-input" placeholder="City name e.g.: Paris ..." id="searchInput" autofocus>
+                </div>
+
+            </div>
+            <!-- <div class="col-md-4 px-0 mt-4 weather-card">
+              <div class="ch-content ">
+                <div class="ch-head d-flex justify-content-between">
+                  <p class="day ps-2 pt-1">Friday</p>
+                  <p class="date pe-2 pt-1">24February</p>
+                </div>
+                <div class="ch-body d-flex flex-column align-items-start ps-2">
+                  <p class="city">Cairo</p>
+                  <div class="degree d-flex align-items-center">
+                    <p class="">
+                      16 C
+                    </p>
+                    <div class="sun-icon ms-3 "><i class="fas fa-sun"></i></div>
+
+                  </div>
+                  <p class="sun-status">
+                    Sunny
+                  </p>
+                </div>
+                <div class="ch-footer mb-3 ps-3">
+                  <div class="humidity">
+                    <span id="H">
+                      <img src="images/icon-umberella.png" alt="">
+                      20%
+                    </span>
+                    <span id="wind">
+                      <img src="images/icon-wind.png" alt="">
+                      18 km/h
+                    </span>
+                    <span id="L">
+                      <img src="images/icon-compass.png" alt="">
+                      East
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <div class="col-md-4 px-0 mt-4 weather-card-1">
+              <div class="ch-content ">
+                <div class="ch-head-1 d-flex justify-content-center">
+                  <p class="next-day pt-1">Sunday</p>
+                </div>
+                <div class="ch-body d-flex flex-column align-items-center justify-content-center ps-2">
+                  <div class="status-icon">
+                    <i class=" fas fa-sun"></i>
+                  </div>
+                  <div class="degree-1 d-flex align-items-center">
+                    <p class="">
+                      28C
+                    </p>
+                    <div class="sun-icon ms-3 "><i class="fas fa-sun"></i></div>
+
+                  </div>
+                  <p class="sun-status">
+                    Sunny
+                  </p>
+                </div>
+
+              </div>
+            </div> -->
+
+
+        </div>
+
+    </div>
+    </div>
+    <div class="weather-cards w-100 pb-4">
+      <div class="container">
+        <div class="row weather-cont d-flex flex-row justify-content-center">
+
+            <!-- <div class="today-header d-flex justify-content-between px-2 py-3">
+              <div class="tod-day">Sunday</div>
+              <div class="tod-date">24February</div>
+            </div>
+            <div class="today-cont mt-4 ps-2">
+              <div class="tod-city mb-3">Cairo</div>
+              <div class="tod-status mb-3 ps-2 d-flex justify-content-center">
+                <div class="tod-degree  fw-bold me-3">17</div>
+                <div class="condition-img d-flex  justify-content-center align-items-center">
+                  <p class="me-3">C</p>
+                  <div class="tod-status-icon">
+                    <img src="images/logo.png" alt="" class="">
+                  </div>
+                </div>
+
+              </div>
+              <div class="tod-sky-status mb-4 ms-1">sunny</div>
+              <span>
+                <img src="images/icon-umberella.png" alt="">
+                20%
+              </span>
+              <span>
+                <img src="images/icon-wind.png" alt="">
+                18km/h
+              </span>
+              <span>
+                <img src="images/icon-compass.png" alt="">
+                East
+              </span>
+            </div> -->
+
+          <!-- <div class="col-lg-4 p-0 tomorrow text-white-50 ">
+            <div class="tom-header d-flex justify-content-center py-3">Monday</div>
+            <div class="tom-cont d-flex flex-column align-items-center mt-5">
+              <div class="tom-icon fs-3 fw-bold mt-1">O</div>
+              <div class="tom-status-degree fs-3 fw-bold mt-2">
+                26C
+              </div>
+              <div class="tom-humidity mt-2">
+                13%
+              </div>
+              <div class="tom-sky-status mt-3">
+                sunny
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-lg-4 p-0 aft-tomorrow ">
+            <div class="af-tom-header d-flex justify-content-center py-3">Monday</div>
+            <div class="af-tom-cont d-flex flex-column align-items-center mt-5">
+              <div class="af-tom-icon fs-3 fw-bold mt-1">O</div>
+              <div class="af-tom-status-degree fs-3 fw-bold mt-2">
+                26C
+              </div>
+              <div class="af-tom-humidity mt-2">
+                13%
+              </div>
+              <div class="af-tom-sky-status mt-3">
+                sunny
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ---------------------HOME PAGE END--------------------------------- -->
+<section id="footer">
+  <footer class="text-center pt-5 pb-4">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-8 col-12">
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form5Example27" class="form-control" placeholder="Email address" />
+
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+
+
+        </form>
+      </section>
+      <!-- Section: Form -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3 cpr" >
+      Copyright 2014 Company name. Designed by Themezy. All rights reserved
+    </div>
+    <!-- Copyright -->
+  </footer>
+</section>
+
+<script src="js/main.js"></script>
+</body>
+
+</html>

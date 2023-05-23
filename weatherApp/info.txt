@@ -1,0 +1,3 @@
+site template for a weather App.
+using only HTML/CSS/js.
+responsive.
