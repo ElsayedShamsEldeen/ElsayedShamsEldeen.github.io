@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.6.3.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Angora</title>
+</head>
+
+<body>
+
+  <!-- --------------------NAVBAR START-------------------------------- -->
+  <nav class="navbar navbar-expand-lg bg-transparent z-3  " id="nav-top">
+    <div class="container ">
+      <a class="navbar-brand " href="#">
+        <img class="logo-img"  src="images/logo/logo-white.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto   mb-2 mb-lg-0 ">
+
+          <li class="nav-item fw-semibold me-lg-3">
+            <a class="nav-link " href="#home">HOME</a>
+          </li>
+          <li class="nav-item fw-semibold me-lg-3">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item fw-semibold me-lg-3">
+            <a class="nav-link" href="#team">TEAM</a>
+          </li>
+          <li class="nav-item fw-semibold me-lg-3">
+            <a class="nav-link" href="#services">PROJECTS</a>
+          </li>
+          <li class="nav-item fw-semibold me-lg-3">
+            <a class="nav-link" href="#services">SERVICES</a>
+          </li>
+          <li class="nav-item fw-semibold me-lg-3">
+            <a class="nav-link" href="#portfolio">WORK</a>
+          </li>
+          <li class="nav-item fw-semibold me-lg-3">
+            <a class="nav-link" href="#blog">BLOG</a>
+          </li>
+          <li class="nav-item fw-semibold me-lg-3">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+
+
+        </ul>
+        <div class="social-panel d-flex justify-content-center align-content-center">
+              <div class="s-icon m-md-3 m-sm-3 fs-sm-4">
+                <span>
+                  <i class="fab fa-facebook-f"></i>
+                </span>
+              </div>
+              <div class="s-icon m-md-3 m-sm-3 fs-sm-4">
+                <span>
+                  <i class="fab fa-instagram"></i>
+                </span>
+              </div>
+              <div class="s-icon m-md-3 m-sm-3 fs-sm-4">
+                <span>
+                  <i class="fab fa-twitter"></i>
+                </span>
+              </div>
+            </div>
+      </div>
+
+    </div>
+
+  </nav>
+  <!-- --------------------NAVBAR END------------------------------------- -->
+
+  <!-- -------------------------------HOME PAGE START----------------------------------- -->
+  <section class="intro" id="home" >
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" >
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item position-relative active">
+          <img src="images/intro/slideshow-1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-block position-absolute start-50 translate-middle">
+            <h1 class="c-header">Focused <br> on strategy.</h1>
+          </div>
+
+        </div>
+        <div class="carousel-item position-relative">
+
+          <img src="images/intro/slideshow-2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-block position-absolute start-50 translate-middle">
+            <h1 class="c-header">Advanced in <br>
+              digital works.</h1>
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <img src="images/intro/slideshow-3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-block position-absolute start-50 translate-middle">
+            <h1 class="c-header">We build <br>
+              great brands.</h1>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+
+  </section>
+      <!-- -----------------------------HOME PAGE END----------------------------------- -->
+
+      <!-- -------------------------------ABOUT PAGE START----------------------------------- -->
+    <section id="about" class="about my-5 ">
+      <div class="s-title position-relative d-flex justify-content-center align-items-center">
+        <p class="title-hidden fw-bolder">A</p>
+        <h1 class="title-visible position-absolute fw-bold  ">About Us</h1>
+      </div>
+
+      <div class=" container">
+        <div class="row">
+          <div class=" about-ch col-md-12 mt-3 text-center ">
+            <p class=" fw-medium">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum facilis maxime et consequuntur ullam commodi, magnam dicta vero voluptatum, molestiae ab similique sint mollitia dolore iure veritatis perspiciatis aperiam cupiditate.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class=" container mt-4">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="child-brief">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti porro sequi quam minima blanditiis beatae, asperiores unde a debitis, perferendis ipsum totam quod amet sunt possimus? Quae adipisci mollitia vero!
+              </p>
+            </div>
+            <div class="child-brief">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti porro sequi quam minima blanditiis beatae, asperiores unde a debitis, perferendis ipsum totam quod amet sunt possimus? Quae adipisci mollitia vero!
+              </p>
+            </div>
+            <div class="child-brief">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti porro sequi quam minima blanditiis beatae, asperiores unde a debitis, perferendis ipsum totam quod amet sunt possimus? Quae adipisci mollitia vero!
+              </p>
+            </div>
+          </div>
+          <div class=" col-md-6">
+            <div>
+              <label for="">Branding</label>
+            <div class="progress my-3 " role="progressbar" aria-label="Branding" aria-valuenow="85" aria-valuemin="0"
+              aria-valuemax="100" style="height: 5px;">
+              <div class="ch-p progress-bar" style="width: 85%"></div>
+            </div>
+            <label for="">Web Design</label>
+            <div class="progress my-3" role="progressbar" aria-label="Web Design" aria-valuenow="75" aria-valuemin="0"
+              aria-valuemax="100" style="height: 5px;">
+              <div class="ch-p progress-bar" style="width: 75%"></div>
+            </div>
+            <label for="">Graphic Design</label>
+            <div class="progress my-3" role="progressbar" aria-label="Graphic Design" aria-valuenow="50" aria-valuemin="0"
+              aria-valuemax="100" style="height: 5px;">
+              <div class="ch-p progress-bar" style="width: 50%"></div>
+            </div>
+            <label for="">Development</label>
+            <div class="progress my-3" role="progressbar" aria-label="Development" aria-valuenow="90" aria-valuemin="0"
+              aria-valuemax="100" style="height: 5px;">
+              <div class="ch-p progress-bar" style="width: 90%;"></div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+      <!-- -------------------------------ABOUT PAGE END----------------------------------- -->
+
+      <!-- -------------------------------TEAM PAGE START----------------------------------- -->
+      <section class="team" id="team">
+        <div class="s-title position-relative d-flex justify-content-center align-items-center">
+          <p class="title-hidden fw-bolder">O</p>
+          <h1 class="title-visible position-absolute fw-bold  ">Our Team</h1>
+        </div>
+
+        <div class=" container">
+          <div class="row">
+            <div class=" about-ch col-md-12 mt-3 text-center ">
+              <p class=" fw-medium">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum facilis maxime et consequuntur ullam commodi, magnam dicta vero voluptatum, molestiae ab similique sint mollitia dolore iure veritatis perspiciatis aperiam cupiditate.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class=" container my-5">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="layer">
+                <div class="img-container rounded-3">
+                  <img class="img" src="images/team/member-1.jpg" alt="">
+                  <div class="overlay">
+                    <div class="s-panel">
+                      <a href="#">
+                        <i class="s-self fab fa-facebook-f"></i>
+                      </a>
+                      <a href="#">
+                        <i class="s-self fab fa-twitter"></i>
+                      </a>
+                      <a href="#">
+                        <i class="s-self fab fa-instagram"></i>
+                      </a>
+                      <a href="#">
+                        <i class="s-self fab fa-twitch"></i>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="team-info text-center mt-2">
+                  <p class=" fs-6 fw-bold mb-0">
+                    Michael Broad
+                  </p>
+                  <p class=" name-p fs-6">
+                    Web Designer
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-3">
+              <div class="layer">
+                <div class="img-container rounded-3">
+                  <img class="img" src="images/team/member-2.jpg" alt="">
+                  <div class="overlay">
+                    <div class="s-panel">
+                      <a href="#">
+                        <i class="s-self fab fa-facebook-f"></i>
+                      </a>
+                      <a href="#">
+                        <i class="s-self fab fa-twitter"></i>
+                      </a>
+                      <a href="#">
+                        <i class="s-self fab fa-instagram"></i>
+                      </a>
+                      <a href="#">
+                        <i class="s-self fab fa-twitch"></i>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="team-info text-center mt-2">
+                  <p class=" fs-6 fw-bold mb-0">
+                    Jeannette Crow
+                  </p>
+                  <p class=" name-p fs-6">
+                    CEO Founder
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-3">
+              <div class="layer">
+                <div class="img-container rounded-3">
+                  <img class="img" src="images/team/member-3.jpg" alt="">
+                  <div class="overlay">
+                    <div class="s-panel">
+                      <a href="#">
+                        <i class="s-self fab fa-facebook-f"></i>
+                      </a>
+                      <a href="#">
+                        <i class="s-self fab fa-twitter"></i>
+                      </a>
+                      <a href="#">
+                        <i class="s-self fab fa-instagram"></i>
+                      </a>
+                      <a href="#">
+                        <i class="s-self fab fa-twitch"></i>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="team-info text-center mt-2">
+                  <p class=" fs-6 fw-bold mb-0">
+                    Martin Lawrence
+                  </p>
+                  <p class=" name-p fs-6">
+                    App Developer
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-3">
+              <div class="layer">
+                <div class="img-container rounded-3">
+                  <img class="img" src="images/team/member-4.jpg" alt="">
+                  <div class="overlay">
+                    <div class="s-panel">
+                      <a href="#">
+                        <i class="s-self fab fa-facebook-f"></i>
+                      </a>
+                      <a href="#">
+                        <i class="s-self fab fa-twitter"></i>
+                      </a>
+                      <a href="#">
+                        <i class="s-self fab fa-instagram"></i>
+                      </a>
+                      <a href="#">
+                        <i class="s-self fab fa-twitch"></i>
+                      </a>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="team-info text-center mt-2">
+                  <p class=" fs-6 fw-bold mb-0">
+                    Isabella Dowson
+                  </p>
+                  <p class=" name-p fs-6">
+                    Creative Director
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+      </section>
+      <!-- -------------------------------TEAM PAGE END----------------------------------- -->
+
+      <!-- -------------------------------BLANK PAGE START----------------------------------- -->
+      <section class="feedback">
+        <div class=" container">
+          <div class="row">
+            <div class=" col-sm-6 offset-sm-1 text-center fs-1">
+              <p>Do you have any ideas?</p>
+            </div>
+            <div class="col-sm-4 text-center fa-pull-right d-flex justify-content-center align-items-center">
+              <button class="btn btn-danger btn-lg">contact us</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- -------------------------------BLANK PAGE END----------------------------------- -->
+
+      <!-- -------------------------------SERVICES PAGE start----------------------------------- -->
+      <section class="services" id="services">
+        <div class="s-title position-relative d-flex justify-content-center align-items-center">
+          <p class="title-hidden fw-bolder">S</p>
+          <h1 class="title-visible position-absolute fw-bold  ">Services</h1>
+        </div>
+
+        <div class=" container">
+          <div class="row">
+            <div class=" about-ch col-md-12 mt-3 text-center ">
+              <p class=" fw-medium">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum facilis maxime et consequuntur ullam commodi, magnam dicta vero voluptatum, molestiae ab similique sint mollitia dolore iure veritatis perspiciatis aperiam cupiditate.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-md-4 ser-ch">
+              <div class="ser-overlay d-flex justify-content-center ">
+                <div class="ser-icon me-3">
+                  <i class=" fas fa-laptop"></i>
+                </div>
+                <div class="ser-details mt-2">
+                  <h3 >
+                    Responsive Layout
+                  </h3>
+                  <p class=" fs-6 fw-light text-black">Lorem ipsum dolor sit amet consectetur. Perferendis itaque beatae eum atque quo</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ser-ch">
+              <div class="ser-overlay d-flex justify-content-center ">
+                <div class="ser-icon me-3">
+                  <i class=" fas fa-pencil-ruler"></i>
+                </div>
+                <div class="ser-details mt-2">
+                  <h3 >
+                    Modern Design
+                  </h3>
+                  <p class=" fs-6 fw-light text-black">Lorem ipsum dolor sit amet consectetur. Perferendis itaque beatae eum atque quo</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ser-ch">
+              <div class="ser-overlay d-flex justify-content-center ">
+                <div class="ser-icon me-3">
+                  <i class=" fas fa-flag"></i>
+                </div>
+                <div class="ser-details mt-2">
+                  <h3 >
+                    Font Awesome Icons
+                  </h3>
+                  <p class=" fs-6 fw-light text-black">Lorem ipsum dolor sit amet consectetur. Perferendis itaque beatae eum atque quo</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ser-ch">
+              <div class="ser-overlay d-flex justify-content-center ">
+                <div class="ser-icon me-3">
+                  <i class=" fas fa-newspaper"></i>
+                </div>
+                <div class="ser-details mt-2">
+                  <h3 >
+                    Ajax Portfolio
+                  </h3>
+                  <p class=" fs-6 fw-light text-black">Lorem ipsum dolor sit amet consectetur. Perferendis itaque beatae eum atque quo</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ser-ch">
+              <div class="ser-overlay d-flex justify-content-center ">
+                <div class="ser-icon me-3">
+                  <i class=" fas fa-gear"></i>
+                </div>
+                <div class="ser-details mt-2">
+                  <h3 >
+                    Color Options
+                  </h3>
+                  <p class=" fs-6 fw-light text-black">Lorem ipsum dolor sit amet consectetur. Perferendis itaque beatae eum atque quo</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ser-ch">
+              <div class="ser-overlay d-flex justify-content-center ">
+                <div class="ser-icon me-3">
+                  <i class=" fas fa-headset"></i>
+                </div>
+                <div class="ser-details mt-2">
+                  <h3 >
+                    Audio Support
+                  </h3>
+                  <p class=" fs-6 fw-light text-black">Lorem ipsum dolor sit amet consectetur. Perferendis itaque beatae eum atque quo</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ser-ch">
+              <div class="ser-overlay d-flex justify-content-center ">
+                <div class="ser-icon me-3">
+                  <i class=" fas fa-paperclip"></i>
+                </div>
+                <div class="ser-details mt-2">
+                  <h3 >
+                    Well Documented
+                  </h3>
+                  <p class=" fs-6 fw-light text-black">Lorem ipsum dolor sit amet consectetur. Perferendis itaque beatae eum atque quo</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ser-ch">
+              <div class="ser-overlay d-flex justify-content-center ">
+                <div class="ser-icon me-3">
+                  <i class=" fas fa-video"></i>
+                </div>
+                <div class="ser-details mt-2">
+                  <h3 >
+                    Background Videos
+                  </h3>
+                  <p class=" fs-6 fw-light text-black">Lorem ipsum dolor sit amet consectetur. Perferendis itaque beatae eum atque quo</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ser-ch">
+              <div class="ser-overlay d-flex justify-content-center ">
+                <div class="ser-icon me-3">
+                  <i class=" fas fa-display"></i>
+                </div>
+                <div class="ser-details mt-2">
+                  <h3 >
+                    Intro Slider
+                  </h3>
+                  <p class=" fs-6 fw-light text-black">Lorem ipsum dolor sit amet consectetur. Perferendis itaque beatae eum atque quo</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- -------------------------------SERVICES PAGE END----------------------------------- -->
+
+      <!-- -------------------------------BLOG PAGE START----------------------------------- -->
+      <section class="blog" id="blog">
+        <div class="s-title position-relative d-flex justify-content-center align-items-center">
+          <p class="title-hidden fw-bolder">C</p>
+          <h1 class="title-visible position-absolute fw-bold  ">Client Reviews</h1>
+        </div>
+
+        <div class=" container mb-5">
+          <div class="row">
+            <div class=" about-ch col-md-12 mt-3 text-center ">
+              <p class=" fw-medium">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum facilis maxime et consequuntur ullam commodi, magnam dicta vero voluptatum, molestiae ab similique sint mollitia dolore iure veritatis perspiciatis aperiam cupiditate.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- carousel  -->
+        <!-- Carousel wrapper -->
+<div id="carouselExampleCaptions" class="carousel slide text-center carousel-dark" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item  active" data-bs-interval="2000">
+      <img class="rounded-circle shadow-1-strong mb-4"
+        src="images/testimonials/client-1.png" alt="avatar"
+        style="width: 150px;" />
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h5 class="mb-3">Maria Kate</h5>
+          <p>Photographer</p>
+          <p class="text-muted">
+            <i class="fas fa-quote-left pe-2"></i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img class="rounded-circle shadow-1-strong mb-4"
+        src="images/testimonials/client-2.png" alt="avatar"
+        style="width: 150px;" />
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h5 class="mb-3">John Doe</h5>
+          <p>Web Developer</p>
+          <p class="text-muted">
+            <i class="fas fa-quote-left pe-2"></i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img class="rounded-circle shadow-1-strong mb-4"
+        src="images/testimonials/client-3.png" alt="avatar" style="width: 150px;" />
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h5 class="mb-3">Anna Deynah</h5>
+          <p>UX Designer</p>
+          <p class="text-muted">
+            <i class="fas fa-quote-left pe-2"></i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img class="rounded-circle shadow-1-strong mb-4"
+        src="images/testimonials/client-4.png" alt="avatar" style="width: 150px;" />
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h5 class="mb-3">Anna Deynah</h5>
+          <p>UX Designer</p>
+          <p class="text-muted">
+            <i class="fas fa-quote-left pe-2"></i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img class="rounded-circle shadow-1-strong mb-4"
+        src="images/testimonials/client-5.png" alt="avatar" style="width: 150px;" />
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h5 class="mb-3">Anna Deynah</h5>
+          <p>UX Designer</p>
+          <p class="text-muted">
+            <i class="fas fa-quote-left pe-2"></i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img class="rounded-circle shadow-1-strong mb-4"
+        src="images/testimonials/client-6.png" alt="avatar" style="width: 150px;" />
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+          <h5 class="mb-3">Anna Deynah</h5>
+          <p>UX Designer</p>
+          <p class="text-muted">
+            <i class="fas fa-quote-left pe-2"></i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- Carousel wrapper -->
+
+
+      </section>
+      <!-- -------------------------------BLOG PAGE END----------------------------------- -->
+
+      <!-- -------------------------------BLOG PAGE END----------------------------------- -->
+      <!-- footer page start -->
+      <section class="footer my-5 py-5 position-relative" id="footer">
+        <div class="f-layer">
+
+
+        <div class="footer-icon d-flex justify-content-center">
+          <div class="f-icon">
+            <img src="images/logo/icon.png" alt="">
+          </div>
+        </div>
+        <div class=" container my-5">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 ">
+              <div class="f-ch">
+                <div class="f-head">
+                  <h3 class="text-white">Contact Info</h3>                  </h3>
+                </div>
+                <div class="f-info">
+                  <p class="d-block w-75">
+                    1650 Lombard Street,
+San Francisco, CA 94123
+                  </p>
+                  <p>
+                    +1 (415) 876-3250
+                  </p>
+                  <p>email@sitename.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 ">
+              <div class="f-ch">
+                <div class="f-head">
+                  <h3 class="text-white">Useful Links</h3>
+                </div>
+                <div class="f-info">
+                  <ul class=" list-unstyled">
+                    <li><a href="#">support</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Affiliate Program</a></li>
+                    <li><a href="#">Careers</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 ">
+              <div class="f-ch">
+                <div class="f-head">
+                  <h3 class="text-white">Recent Posts</h3>
+                </div>
+                <div class="f-info">
+                  <ul class=" list-unstyled">
+                    <li><a href="#">Sunset in Venice</a></li>
+                    <li><a href="#">Aerial View of Village</a></li>
+                    <li><a href="#">Lighted Concrete City</a></li>
+                    <li><a href="#">The Little Ghost</a></li>
+                    <li><a href="#">Royal Oats ft. Waldo</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 ">
+              <div class="f-ch">
+                <div class="f-head">
+                  <h3 class="text-white">Popular Tags</h3>
+                </div>
+                <div class="f-info container-fluid">
+                  <div class="row">
+                    <div class="col-md-4 my-1">
+                      <div class="f-info-sq text-center">
+                        <span>HTML5</span>
+                      </div>
+                    </div>
+                    <div class="col-md-4 my-1">
+                      <div class="f-info-sq text-center">
+                        <span>CSS3</span>
+                      </div>
+                    </div>
+                    <div class="col-md-4 my-1">
+                      <div class="f-info-sq text-center">
+                        <span>JQUERY</span>
+                      </div>
+                    </div>
+                    <div class="col-md-4 my-1">
+                      <div class="f-info-sq text-center">
+                        <span>UI/UX</span>
+                      </div>
+                    </div>
+                    <div class="col-md-4 my-1">
+                      <div class="f-info-sq text-center">
+                        <span>WEB</span>
+                      </div>
+                    </div>
+                    <div class="col-md-4 my-1">
+                      <div class="f-info-sq text-center">
+                        <span>GRAPHIC</span>
+                      </div>
+                    </div>
+                    <div class="col-md-6 my-1">
+                      <div class="f-info-sq text-center">
+                        <span>JAVASCRIPT</span>
+                      </div>
+                    </div>
+                    <div class="col-md-6 my-1 ">
+                      <div class="f-info-sq text-center">
+                        <span>BOOTSTRAP</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- footer page end -->
+      <!-- -------------------------------BLOG PAGE END----------------------------------- -->
+
+
+</body>
+
+</html>

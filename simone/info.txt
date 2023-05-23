@@ -1,0 +1,4 @@
+site template for a personal potfolio.
+works as a landing page.
+using only HTML and CSS .
+responsive.

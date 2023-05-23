@@ -1,0 +1,5 @@
+site template for a personal potfolio.
+works as a landing page.
+can be transformed to a singla page website using angular.
+using only HTML/CSS and BOOTSTRAP.
+responsive.
