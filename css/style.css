@@ -1,0 +1,258 @@
+/*  */
+body{
+    font-family: system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+    background-color: #1e202b;
+    color: #4e4e4e;
+    scroll-behavior: smooth;
+    position: relative;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+
+
+/* ----------------------NAVBAR START----------------------- */
+
+.navbar {
+    padding-top: 1.563rem;
+    padding-bottom: 1.563rem;
+    font-weight: 700;
+
+    width: 100%;
+    background-color: #1e202b;
+
+
+
+}
+
+.nav-item{
+    position: relative;
+    margin-right: 10px;
+}
+
+
+
+
+
+/* ----------------------NAVBAR END----------------------- */
+
+/* ----------------------HOME PAGE START----------------------- */
+#home {
+    /* background-image: url("../images/intro-bg.jpg"); */
+
+    background: linear-gradient(rgba(116, 116, 116, 0.288), rgba(31, 30, 30, 0.171)), url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position :center px;
+    padding-top: 80px;
+
+
+
+}
+
+
+
+
+.form{
+
+    position: relative;
+}
+
+.form .fa-search{
+
+    position: absolute;
+    top:15px;
+    right: 20px;
+    color: #9ca3af;
+
+
+
+}
+.form .fa-search:hover {
+    cursor: pointer;
+}
+
+.form span{
+
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+
+   padding-left: 10px;
+}
+
+.form-input{
+
+    height: 45px;
+
+    text-indent: 33px;
+    border-radius: 100px;
+
+}
+.form input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+.form-input::placeholder, .form-field input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+.form-input:focus{
+
+    box-shadow: none;
+    border:none;
+}
+
+/* .ch-head {
+    background-color: #2d303d;
+}
+.ch-head-1{
+    background-color: #222531;
+
+}
+
+.degree p {
+    font-size: 90px;
+    font-weight: bold;
+    color: #fff;
+}
+.degree-1 {
+    font-weight: bold;
+    color: #fff;
+}
+.sun-icon i {
+    font-size: 50px;
+
+}
+.humidity span {
+    margin-right: 5px;
+    color: #BFC1C8;
+}
+.sun-status {
+    color: #0078ff;
+}
+.weather-card {
+    background-color: #323544;
+    border-radius: 10px 0 0 10px;
+}
+.weather-card-1 {
+    background-color:#262936;
+    height: 316px;
+}
+.ch-head {
+    border-radius: 10px 0 0 0;
+    color: #BFC1C8;
+
+}
+.city {
+    color: #BFC1C8;
+} */
+
+
+.today, .card2 {
+    /* height: 316px;
+    width: 30%; */
+    background-color: #323544;
+    color: #BFC1C8;
+}
+.today-header, .tom-header2 {
+    background-color: #2d303d;
+}
+.tom-header1 {
+    background-color: #222531;
+}
+.card1 {
+    background-color: #262936;
+}
+
+
+.tod-degree {
+    font-size: 67px;
+    color:#fff;
+}
+.condition-img p{
+    font-size: 70px;
+    color: #fff;
+}
+
+.today-cont {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 5px;
+}
+.today-cont span {
+    margin-right: 15px;
+}
+.today {
+    border-radius: 10px 0 0 10px;
+}
+.today-header {
+
+    border-radius: 10px 0 0 0;
+}
+.tom-header2 {
+    border-radius: 0 10px 0 0 ;
+}
+.card2 {
+    border-radius: 0 10px 10px 0;
+}
+.tod-sky-status {
+    color:#009AD8;
+}
+.tod-status-icon img {
+    width: 100px;
+}
+
+#home {
+    background-color: #1e202b;
+}
+
+footer {
+    background-color: #262936;
+}
+.cpr a {
+    text-decoration: none;
+    color: #fff;
+}
+.cpr {
+    color: aliceblue;
+}
+/* ----------------------HOME PAGE END----------------------- */
+/* contact page */
+.path-info {
+    width: 80%;
+    background-color: rgb(38, 41, 54);
+}
+.contact-content  {
+    background-color: #1e202b;
+}
+.form-field {
+    background-color: ;
+}
+.contact-map {
+    background-color: #262936;
+}
+.location-img img {
+    width:80%;
+}
+
+@media screen and (max-width :991px) {
+       .target {
+        margin-bottom: 40px;
+       }
+
+    }
+/* ----------------------MEDIA QUERY STYLES END----------------------- */
+
