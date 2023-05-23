@@ -9,7 +9,7 @@ var container = document.querySelector(".weather-cont");
 var forcast;
 var nextDaysFrocast;
 var city = "cairo"
-http.open ("GET",`http://api.weatherapi.com/v1/forecast.json?key=d6eff0c151be4752b68162705232202&q=${city}&days=3&aqi=no&alerts=no`)
+http.open ("GET",`https://api.weatherapi.com/v1/forecast.json?key=d6eff0c151be4752b68162705232202&q=${city}&days=3&aqi=no&alerts=no`)
 /*sending connection request */
 http.send();
 /* listening for the state change event to determine the connection status*/
@@ -32,7 +32,7 @@ clearPage();
 searchButton.addEventListener("click",function(){
 city = search.value;
 /*configuring connection to API using the METHOD and URL */
-http.open ("GET",`http://api.weatherapi.com/v1/forecast.json?key=d6eff0c151be4752b68162705232202&q=${city}&days=3&aqi=no&alerts=no`)
+http.open ("GET",`https://api.weatherapi.com/v1/forecast.json?key=d6eff0c151be4752b68162705232202&q=${city}&days=3&aqi=no&alerts=no`)
 /*sending connection request */
 http.send();
 /* listening for the state change event to determine the connection status*/
