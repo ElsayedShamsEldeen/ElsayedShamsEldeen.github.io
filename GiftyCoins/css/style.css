@@ -183,6 +183,15 @@ body {
   .search {
     width: 100% !important;
   }
+  .language-picker__item {
+    padding: 0 !important;
+    font-size: 13px;
+  }
+  .language-picker__item[aria-selected=true]::after {
+
+    height: 14px !important;
+    width: 15px !important;
+  }
 }
 
 @media screen and (max-width:1063px) {
@@ -200,10 +209,14 @@ body {
 
 }
 
-@media screen and (max-width:1199px){
+@media screen and (max-width:1199px) and (min-width:459px){
   .swiper{
     margin-top: 15rem !important;
   }
+
+}
+@media screen and (max-width:1199px) {
+
   .sub-head{
     margin-top: 2rem !important ;
   }
@@ -214,11 +227,64 @@ body {
   .alternating-panel{
     display: block !important;
   }
-
-
   .topprimary{
     line-height: 2;
+    margin-bottom: 6rem;
   }
+}
+@media screen and (max-width:730px) {
+  .swiper {
+    margin-top: 2rem !important;
+  }
+  .swiper-cont {
+    overflow: hidden;
+    padding-bottom: 100px;
+  }
+  .sec-title{
+    font-size: 16px !important;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+
+    top: 272px !important;
+}
+.btn-view {
+
+  min-width: 143px !important;
+}
+.search-input::placeholder {
+  font-size:10px;
+}
+.sub-head {
+  font-size: 25px !important;
+
+  letter-spacing: 0px !important;
+  width: 400px;
+
+}
+.sub-para {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+  width: 389px;
+  text-align: left;
+  padding-left: 0 !important;
+  padding-right: 7px !important;
+}
+}
+@media (orientation: landscape) {
+  .swiper{
+    margin-top: 1rem !important;
+    padding-bottom: 20 !important;
+
+  }
+  .alternating-panel {
+    margin-bottom: 10rem;
+  }
+  .img-width {
+    width: 150px;
+    height: 150px;
+  }
+
 }
 @media screen and (max-width:1199px) and (min-width:655px){
   .mySwiper .img-width{
@@ -235,7 +301,8 @@ body {
   margin-bottom: 8px;
 }
 .sub-para {
-  font-size: 13px;
+  font-size: 16px;
+  margin-bottom: 1rem;
 }
 
 
@@ -488,8 +555,8 @@ nav:hover .search-f{
 }
 
 .mySwiper .img-width{
-  height: 200px;
-  width: 200px;
+  height: 185px;
+  width: 185px;
 }
 .swiper-pagination-bullet-active {
   opacity: var(--swiper-pagination-bullet-opacity, 1);
