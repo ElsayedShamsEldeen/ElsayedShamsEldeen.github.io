@@ -13,14 +13,18 @@
 </head>
 
 <body>
+  <video autoplay muted loop id="myVideo">
+    <source src="../assets/pubg_animation.mp4" type="video/mp4">
+  </video>
 <div class="primary">
-  <div class=" navBar " style="background-color: rgba(21, 21, 136, 0.856);">
+
+  <div class=" navBar " style="background-color: rgb(153 158 222 / 32%);">
     <img src="../assets/logo.png" alt="">
     <div class="nav-cont">
-      <a href="../index.html"><i class="fas fa-home me-2 text-white"></i></a>
-      <a href="#"><i class="fab fa-facebook-square me-2 text-white"></i></a>
-      <a href="#"><i class="fab fa-twitter-square me-2 text-white"></i></a>
-      <a href="#"><i class="fab fa-instagram me-2 text-white"></i></a>
+      <a href="../index.html"><i class="fas fa-home fa-xl me-2 text-white"></i></a>
+      <a href="#"><i class="fab fa-facebook-square fa-xl me-2 text-white"></i></a>
+      <a href="#"><i class="fab fa-twitter-square fa-xl me-2 text-white"></i></a>
+      <a href="#"><i class="fab fa-instagram fa-xl me-2 text-white"></i></a>
     </div>
   </div>
 
@@ -82,6 +86,53 @@
     </div>
   </div>
     <!--For Small Screens-->
+  <div class="wrapper">
+      <div class="title-text">
+        <div class="title login">Login Form</div>
+        <div class="title signup">Signup Form</div>
+      </div>
+      <div class="form-container">
+        <div class="slide-controls">
+          <input type="radio" name="slide" id="login" checked>
+          <input type="radio" name="slide" id="signup">
+          <label for="login" class="slide login">Login</label>
+          <label for="signup" class="slide signup">Signup</label>
+          <div class="slider-tab"></div>
+        </div>
+        <div class="form-inner">
+          <form action="#" class="login">
+            <div class="field">
+              <input type="text" placeholder="Email Address" required>
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Password" required>
+            </div>
+            <div class="pass-link"><a href="#">Forgot password?</a></div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" value="Login">
+            </div>
+            <div class="signup-link">Not a member? <a href="">Signup now</a></div>
+          </form>
+          <form action="#" class="signup">
+            <div class="field">
+              <input type="text" placeholder="Email Address" required>
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Password" required>
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Confirm password" required>
+            </div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" value="Signup">
+            </div>
+          </form>
+        </div>
+      </div>
+  </div>
+
 </div>
     <!-- FOOTER -->
 <div class="main"></div>
@@ -218,7 +269,7 @@
   </div>
   <div class="content">
     <div>
-      <div class="list-inline gifty-cards d-flex flex-wrap">
+      <div class="list-inline gifty-cards ">
         <li class="list-inline-item"><a href="#">All Cards</a></li>
         <li class="list-inline-item"><a href="#">Gaming Cards</a></li>
         <li class="list-inline-item"><a href="#">Shopping Cards</a></li>
@@ -228,18 +279,17 @@
         <li class="list-inline-item"><a href="#">VOIP Cards</a></li>
 
       </div>
-      <div class=" list-inline gifty-cards d-flex flex-wrap">
-        <ul class="list-inline ">
-          <li class="list-inline-item"><a href="#" class="text-muted">Privacy Policy</a></li>
-          <li class="list-inline-item"><a href="#" class="text-muted">Contact Customer Care</a></li>
-          <li class="list-inline-item"><a href="#" class="text-muted">lorem Agreement</a></li>
-          <li class="list-inline-item"><a href="#" class="text-muted">Terms Of Use</a></li>
-          <li class="list-inline-item"><a href="#" class="text-muted">Accessibility Statement</a></li>
-
-        </ul>
-      </div>
-
      </div>
+     <div class=" list-inline gifty-cards ">
+      <ul class="list-inline ">
+        <li class="list-inline-item"><a href="#" class="text-muted">Privacy Policy</a></li>
+        <li class="list-inline-item"><a href="#" class="text-muted">Contact Customer Care</a></li>
+        <li class="list-inline-item"><a href="#" class="text-muted">lorem Agreement</a></li>
+        <li class="list-inline-item"><a href="#" class="text-muted">Terms Of Use</a></li>
+        <li class="list-inline-item"><a href="#" class="text-muted">Accessibility Statement</a></li>
+
+      </ul>
+    </div>
     <div>
       <div class="social">
         <i class="fa fa-facebook text-white" aria-hidden="true"></i>
