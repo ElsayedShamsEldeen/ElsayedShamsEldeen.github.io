@@ -12,7 +12,8 @@ const pagination=document.querySelectorAll('.swiper-pagination-bullet');
 const body=document.body;
 const newAddtoCart=document.querySelector('.add-to-cart');
 const cartbutton=document.querySelector('.button');
-
+const navSearch=document.querySelectorAll('.search-icon');
+const searchWrapper=document.querySelector('.search-wrapper');
 
 
 for(let i=0 ; i<fav.length;i++){
@@ -296,3 +297,31 @@ document.querySelectorAll('.button').forEach(button => button.addEventListener('
     }
     e.preventDefault();
 }));
+
+
+// NAVBAR SEARCH
+
+function searchToggle(obj, evt){
+    var container = $(obj).closest('.search-wrapper');
+        if(!container.hasClass('active')){
+            container.addClass('active');
+            evt.preventDefault();
+        }
+        else if(container.hasClass('active') && $(obj).closest('.input-holder').length == 0){
+            container.removeClass('active');
+			setTimeout(() => {
+				searchWrapper.style.display='none';
+			}, 800);
+            // clear input
+            container.find('.search-input').val('');
+        }
+}
+
+for(let i=0;i<navSearch.length;i++){
+navSearch[i].addEventListener('click', ()=>{
+	searchWrapper.style.display='unset';
+	setTimeout(() => {
+		searchWrapper.classList.add('active');
+	}, 200);
+} )
+}
