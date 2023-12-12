@@ -110,9 +110,9 @@ ul {
 }
 
 p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 30px;
-  color: #afafaf;
+  color: #555555;
 }
 
 img {
@@ -784,7 +784,7 @@ Header Style
 }
 
 .nav .profile-pic {
-  width:28px;
+  width:33px;
   border-radius: 50%;
 }
 
@@ -863,8 +863,8 @@ box-shadow: 0px 0px 105px 22px rgba(201, 58, 237, 0.9);
   background: rgba(255, 255, 255, 0.37);
   border-radius: 16px;
 
-  backdrop-filter: blur(0.8px);
-  -webkit-backdrop-filter: blur(0.8px);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   border: 1px solid rgba(255, 255, 255, 0.38);
       padding: 60px;
       border-radius: 23px;
@@ -874,8 +874,8 @@ box-shadow: 0px 0px 105px 22px rgba(201, 58, 237, 0.9);
       background: rgba(255, 255, 255, 0.37);
       border-radius: 16px;
 
-      backdrop-filter: blur(0.8px);
-      -webkit-backdrop-filter: blur(0.8px);
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(3px);
       border: 1px solid rgba(255, 255, 255, 0.38);
           padding: 60px;
           border-radius: 23px;
@@ -2680,37 +2680,14 @@ body {
   }
 }
 
-@media (max-width: 1400px) {
-  .main-banner .caption {
 
-background: rgba(255, 255, 255, 0.37);
-border-radius: 16px;
-
-backdrop-filter: blur(0.8px);
--webkit-backdrop-filter: blur(0.8px);
-border: 1px solid rgba(255, 255, 255, 0.38);
-    padding: 60px;
-    border-radius: 23px;
-  }
-  .about-banner .caption {
-
-    background: rgba(255, 255, 255, 0.37);
-    border-radius: 16px;
-
-    backdrop-filter: blur(0.8px);
-    -webkit-backdrop-filter: blur(0.8px);
-    border: 1px solid rgba(255, 255, 255, 0.38);
-        padding: 60px;
-        border-radius: 23px;
-      }
-}
 .main-banner .caption {
 
   background: rgba(255, 255, 255, 0.37);
   border-radius: 16px;
 
-  backdrop-filter: blur(0.8px);
-  -webkit-backdrop-filter: blur(0.8px);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   border: 1px solid rgba(255, 255, 255, 0.38);
       padding: 60px;
       border-radius: 23px;
@@ -2720,8 +2697,8 @@ border: 1px solid rgba(255, 255, 255, 0.38);
       background: rgba(255, 255, 255, 0.37);
       border-radius: 16px;
 
-      backdrop-filter: blur(0.8px);
-      -webkit-backdrop-filter: blur(0.8px);
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(3px);
       border: 1px solid rgba(255, 255, 255, 0.38);
           padding: 60px;
           border-radius: 23px;
